@@ -1,0 +1,5 @@
+XPath @id找到: input
+XPath @name找到: input
+XPath 搜索按钮找到: input
+点击后标题: 百度安全验证
+XPath 选择器练习通过！
