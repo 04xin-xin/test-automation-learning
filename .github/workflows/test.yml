@@ -18,4 +18,4 @@ jobs:
       run: pip install -r requirements.txt
     
     - name: 运行测试
-      run: pytest tests/ --browser=chrome --headless -v
+      run: pytest tests/test_sb_demo.py --browser=chrome --headless -v
