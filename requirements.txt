@@ -1,3 +1,5 @@
 selenium>=4.0.0
+seleniumbase>=4.51.12
 pytest>=7.0.0
 pytest-html>=3.0.0
+allure-pytest>=2.16.0
