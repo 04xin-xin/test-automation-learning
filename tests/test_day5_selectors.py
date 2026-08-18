@@ -27,5 +27,5 @@ def test_百度搜索(browser, 关键词):
     time.sleep(3)
 
     # 验证关键词在标题里 OR 页面 title 不为空
-    assert browser.title != ""
-    print(f"搜索 {关键词} 完成，标题: {browser.title}")
+    assert browser.driver.title != ""
+    print(f"搜索 {关键词} 完成，标题: {browser.driver.title}")

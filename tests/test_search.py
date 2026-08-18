@@ -15,5 +15,5 @@ def test_点击搜索按钮(browser):
     browser.execute_script("document.querySelector('#kw').value = 'pytest';")
     browser.execute_script("document.querySelector('#su').click();")
     time.sleep(20)
-    title = browser.title
+    title = browser.driver.title
     assert "pytest" in title, f"期望标题包含 pytest，实际为 {title}"
